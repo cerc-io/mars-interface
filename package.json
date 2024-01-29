@@ -1,7 +1,8 @@
 {
-  "name": "mars",
+  "name": "@cerc-test/laconic-mars",
   "homepage": "./",
   "version": "1.7.4",
+  "repository": "https://github.com/cerc-io/mars-interface",
   "private": false,
   "license": "SEE LICENSE IN LICENSE FILE",
   "scripts": {
