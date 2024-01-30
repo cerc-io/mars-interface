@@ -41,6 +41,16 @@ record:
   config:
     env:
       CERC_WEBAPP_DEBUG: "$rcd_app_version"
+      URL_OSMOSIS_GQL: "https://osmosis-node.marsprotocol.io/GGSFGSFGFG34/osmosis-hive-front/graphql"
+      URL_OSMOSIS_REST: "https://lcd-osmosis.blockapsis.com"
+      URL_OSMOSIS_RPC: "https://rpc-osmosis.blockapsis.com"
+      URL_NEUTRON_GQL: "https://neutron.rpc.p2p.world/qgrnU6PsQZA8F9S5Fb8Fn3tV3kXmMBl2M9bcc9jWLjQy8p/hive/graphql"
+      URL_NEUTRON_REST: "https://rest-kralum.neutron-1.neutron.org"
+      URL_NEUTRON_RPC: "https://rpc-kralum.neutron-1.neutron.org"
+      URL_NEUTRON_TEST_GQL: "https://testnet-neutron-gql.marsprotocol.io/graphql"
+      URL_NEUTRON_TEST_REST: "https://rest-palvus.pion-1.ntrn.tech"
+      URL_NEUTRON_TEST_RPC: "https://rpc-palvus.pion-1.ntrn.tech"
+      WALLET_CONNECT_ID: "0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0x0"
   meta:
     note: "Added by CI @ `date`"
     repository: "`git remote get-url origin`"
