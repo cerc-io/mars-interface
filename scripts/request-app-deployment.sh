@@ -41,6 +41,8 @@ record:
   config:
     env:
       CERC_WEBAPP_DEBUG: "$rcd_app_version"
+      CERC_MAX_GENERATE_TIME: 180
+      CERC_NEXT_VERSION: 13.4.2
       URL_OSMOSIS_GQL: "https://osmosis-node.marsprotocol.io/GGSFGSFGFG34/osmosis-hive-front/graphql"
       URL_OSMOSIS_REST: "https://lcd-osmosis.blockapsis.com"
       URL_OSMOSIS_RPC: "https://rpc-osmosis.blockapsis.com"
